@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Poppins;
+}
+.container{
+    padding: 0px 150px;
+}
+.header{
+    background-image: linear-gradient(to right bottom, #ff5f60, #ff6e53, #ff7f47, #fc8f3c, #f59f34);
+    min-height: 600px;
+}
+.header-top{
+    min-height: 100px;
+}
+.logo{
+    width: 25%;
+    float: left;
+    margin-top: 35px;
+}
+.logo img{
+    width: 100%;
+}
+.navbar{
+   
+    min-height: 30px;
+    width: 60%;
+    float: right;
+    margin-top: 60px;
+}
+.haeder-wrap{
+    min-height: 300px;
+    margin-top: 50px;
+    padding: 20px 0px;
+}
+.header-text{
+    min-height: 290px;
+    width: 60%;
+    float: left;
+    padding-top: 50px;
+}
+.header-img{
+    min-height: 290px;
+    width: 30%;
+    float: right;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 30px;
+    color: #fff;
+}
+.header-text h1{
+    font-size: 40px;
+    color: #fff;
+}
+.header-text p{
+    font-size: 16px;
+    color: #fff;
+    padding: 15px 0px 25px 0px;
+}
+.header-text a{
+    text-decoration: none;
+    background: #22386e;
+    color: #fff;
+    padding: 10px 30px;
+}
+/* =================== */
+
+.bitcoin{
+    background: #d8d9d9;
+    min-height: 600px;
+}
+.bitcoint-top{
+    padding-top: 80px;
+    text-align: center;
+}
+.bitcoint-top h2{
+    font-size: 40px;
+    width: 50%;
+    color: #22386e;
+    margin: 0px auto;
+}
+
+.main-box{
+    min-height: 300px;
+    padding-top: 80px;
+}
+.single-box{
+    width: 23%;
+    float: left;
+    margin-right: 15px;
+}
+
+#bitcoin{
+    background: #fafbff;
+}
+
+.same{
+    text-align: center;
+    width: 31%;
+}
+#client{
+    background: #ffffff;
+    min-height: 300px;
+}
+.review{
+    background: #fff;
+    padding: 30px 20px;
+    width: 25%;
+    -webkit-box-shadow: inset 10px 6px 74px -20px rgba(214,214,214,0.75);
+-moz-box-shadow: inset 10px 6px 74px -20px rgba(214,214,214,0.75);
+box-shadow: inset 10px 6px 74px -20px rgba(214,214,214,0.75);
+cursor: pointer;
+}
+.autor-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+.autor-img {
+    width: 30%;
+    float: left;
+}
+.autor-text {
+    width: 70%;
+    float: right;
+    text-align: left;
+    padding-top: 15px;
+}
+.review p{
+    clear: both;
+}
+.review:hover{
+    -webkit-box-shadow: 10px 6px 74px -20px rgba(214,214,214,0.75);
+-moz-box-shadow: 10px 6px 74px -20px rgba(214,214,214,0.75);
+box-shadow: 10px 6px 74px -20px rgba(214,214,214,0.75);
+}
+.call-to-action{
+    background-image: linear-gradient(to right bottom, #ff5f60, #ff6e53, #ff7f47, #fc8f3c, #f59f34); 
+    text-align: center;
+    padding: 100px 0px;
+    color: #fff;
+
+}
+.call-to-action h2{
+    font-size: 40px;
+    text-decoration: line-through;
+}
+.call-to-action p{
+    font-size: 20px;
+    width: 60%;
+    margin: 0px auto;
+    padding: 15px 0px 40px 0px;
+}
+.call-to-action a{
+    text-decoration: none;
+    background: #22386e;
+    color: #fff;
+    padding: 10px 30px;
+}
+.last{
+    min-height: 300PX;
+    background: #f9f9f9;
+    padding-top: 150px;
+    margin: 0 auto;
+}
+.box-four{
+    width: 21%;
+    float: left;
+    text-align: justify;
+    margin-left: 20px;
+}
+.box-four h2{
+    font-size: 30px;
+    color: #22386e;
+    margin-bottom: 40px;
+    
+}
+.box-four p{
+    width: 80%;
+    color: #a1a0aa;
+    font-size: 18px;
+}
+.footer{
+    background: #ffffff;
+    padding: 30px 0 30px;
+    margin: 0px auto;
+    border-top: 1px solid #f1f1f1;
+}
+.foot-1{
+    width: 30%;
+    float: left;
+    color: #a1a0aa;;
+}
+.foot-2{
+    width: 60%;
+    float: right;
+}
+.foot-2 ul li{
+    display: inline;
+    margin-right: 30px;
+}
+.foot-2 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #a1a0aa;
+}
